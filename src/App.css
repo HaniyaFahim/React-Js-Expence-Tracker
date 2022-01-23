@@ -1,0 +1,91 @@
+body {
+  background: #8abad3ff;
+}
+.container {
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  background-color: #edc2d8ff;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+  margin-top: 50px;
+  padding: 15px 50px;
+  border-radius: 10px;
+}
+.text-center {
+  text-align: center;
+}
+
+.expence-container {
+  display: flex;
+  justify-content: space-around;
+  background: #fcf6f5ff;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+.transaction-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.transaction-list {
+  margin: 0;
+}
+.transaction-list > li {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px whitesmoke;
+  padding: 5px 5px;
+  margin: 5px 0;
+  background-color: whitesmoke;
+}
+
+.input {
+  border: 4px solid #111d5e;
+  border-radius: 10px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background: none;
+  padding: 10px;
+}
